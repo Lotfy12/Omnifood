@@ -1,0 +1,127 @@
+
+
+.grid-3-colmuns {
+  grid-template-columns: repeat(3, 1fr);
+}
+.section-meals {
+  padding: 9.6rem 0;
+}
+.meal-1,
+.meal-2 {
+  width: 100%;
+}
+.meal-title {
+  color: #333;
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+.meals-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.icon-meal {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}
+.meals-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+b {
+  font-weight: 500;
+}
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+.meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  border-radius: 11px;
+
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.meal:hover,
+.meal:active {
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
+  transform: translateY(-1.3rem);
+}
+
+.meal-contant {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+.tag--vegan {
+  background-color: #94d82d;
+}
+.tag--paleo {
+  background-color: #ffd43b;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.list-icon {
+  color: #e67e22;
+  height: 3rem;
+  width: 3rem;
+}
+.list-item {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.8rem;
+  gap: 1.6rem;
+  line-height: 1.2;
+}
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.all-recieps {
+  text-align: center;
+}
+
+.link:link,
+.link:visited {
+  color: #e67e22;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding: 2px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.link:hover,
+.link:active {
+  border-bottom: 1px solid transparent;
+  color: #cf711f;
+}
+.center-text {
+  text-align: center;
+}
+.diets {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  overflow: hidden;
+}

@@ -1,0 +1,100 @@
+.section-pricing {
+  padding: 9.6rem 0;
+}
+.plan-headder {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+.paln-name {
+  letter-spacing: 0.75;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #cf711f;
+  margin-bottom: 3.2rem;
+}
+.paln-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+.paln-text {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: #6f6f6f;
+}
+
+.paln-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+.plan-sing-up {
+  margin-top: 4.8rem;
+}
+
+.pricing-plan {
+  padding: 4.8rem;
+  width: 75%;
+  border-radius: 11px;
+}
+.btn-cen {
+  text-align: center;
+}
+.pricing-plan--start {
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+}
+.pricing-plan--end {
+  background-color: #fdf2e9;
+  position: relative;
+  overflow-x: hidden;
+}
+.pricing-plan--end::after {
+  content: "best value";
+  background-color: #ffd43b;
+  color: #333;
+  padding: 0.8rem 8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  transform: rotate(45deg);
+}
+
+.grid-4-colmuns {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+.plan-datails {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+.feature-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #cf711f;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  background-color: #fdf2e9;
+  border: 1px solid #cf711f;
+  border-radius: 50%;
+}
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  color: #6f6f6f;
+  line-height: 1.8;
+}

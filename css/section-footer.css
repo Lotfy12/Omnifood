@@ -1,0 +1,68 @@
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #fff;
+}
+
+.grid-5-columns {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer-header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.35s;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #333;
+  line-height: 1.6;
+}
+.contacts {
+  color: #333;
+}
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+.footer-lo {
+  margin-bottom: 3.2rem;
+}
+.footer-logo {
+  display: block;
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-bottom: 4.5rem;
+}
+.copyright {
+  line-height: 1.6;
+  font-size: 1.4rem;
+  color: #767676;
+  margin-top: 2.4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.address {
+  margin-bottom: 2.4rem;
+  color: #767676;
+}
